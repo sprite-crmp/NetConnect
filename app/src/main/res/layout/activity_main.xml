@@ -7,25 +7,6 @@
     android:background="@color/gray"
     android:orientation="vertical">
 
-    <com.spritelab.netconnect.GlassButtonView
-        android:layout_width="250dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:padding="10dp">
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Glass Button"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:background="@android:color/transparent"
-            android:shadowColor="#80000000"
-            android:shadowDx="1"
-            android:shadowDy="1"
-            android:shadowRadius="2"/>
-    </com.spritelab.netconnect.GlassButtonView>
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

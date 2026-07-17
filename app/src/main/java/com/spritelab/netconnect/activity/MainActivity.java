@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int PERMISSION_REQUEST_CODE = 123;
     private int finishChecks;
     private int errorChecks;
-    private final int totalChecks = 3;
+    private final int totalChecks = 4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,7 +88,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void fabricUrlItem() {
-        checkConnect("https://google.com/");
+        checkConnect("https://vk.ru/");
+        checkConnect("https://yandex.ru/");
         checkConnect("https://www.youtube.com");
         checkConnect("https://colorscheme.ru/html-colors.html");
     }
